@@ -10,3 +10,11 @@ body {
 .trunk {
   list-style-type: none; 
 }
+
+table, th, td {
+    border: 1px solid gray;
+}
+ .center {
+ margin-left: auto;
+ margin-right: auto;
+}
