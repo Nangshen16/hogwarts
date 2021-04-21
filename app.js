@@ -11,3 +11,13 @@ const $h4 = $('h4')
 $('h4').addClass('dog').text('Quincy')
 //  //h4 with my wand type 
  $('<h4>').text('Holly Wand with Unicorn Hair Core')
+
+ //remove my wand
+ $('.wand').remove()
+
+ //remove all the butter beer
+ $('.drink').remove()
+
+ //get a new wand
+ $('h4.wand').text('Holly Wand with Unicorn Hair Core').css('color', 'indigo')
+ 
